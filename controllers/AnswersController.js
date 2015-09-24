@@ -17,6 +17,11 @@ AskExperts.controller('AnswersCtrl', function AnswersCtrl($scope, $stateParams, 
     $scope.question.answers[index].comments.push(commentText);
   };
 
+  $scope.deleteComment = function(comment) {
+    var index = $scope.question.answers.indexOf(comment);
+    $scope.question.answers[index].comments.splice(comment);
+  };
+
   $scope.addUpvote = function(answer) {
     var index = $scope.question.answers.indexOf(answer);
     $scope.question.answers[index].upvotes += 1;
