@@ -1,19 +1,7 @@
-/*body{
-    background-image: url(http://media.bestkiteboarding.com/media/blog/best_kiteboarding_indonesia_video.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 800px;
-}*/
-
-
-/*html{
-  background-image: url(http://media.bestkiteboarding.com/media/blog/best_kiteboarding_indonesia_video.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-}*/
+body {
+	background-color: #EBECF0;
+	color: black;
+}
 
 .header {
 
