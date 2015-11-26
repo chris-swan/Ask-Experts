@@ -20,9 +20,8 @@ body {
 
 #navbar {
   font-family: arial;
-  width: 99.5%;
-/*  border: 3px solid #5AED28;
-  background-color: #5AED28;*/
+  border: 3px solid #D1D6EB;
+  background-color: #D1D6EB;
   text-align: center;
 }
 
@@ -30,8 +29,14 @@ body {
   display: inline;
   padding: 1em;
   width: 100%;
+  font-size: 20px;
 }
 
 .asking {
 	text-align: center;
+}
+
+#new-question-form {
+	border-top: 3px solid #D1D6EB;
+	border-width: 100%; 
 }

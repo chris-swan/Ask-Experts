@@ -48,7 +48,7 @@
 <div ui-view></div>
 
 <hr/>
-
+<div id="new-question-form">
   <h2>Ask a new question:</h2>
   <form ng-submit="QuestionsFactory.addQuestion()" role="form">
     <div class="form-group">
@@ -57,3 +57,4 @@
     <button type="submit" class="btn btn-success">Submit</button>
   </form>
   <h3><a ui-sref="questions">Click here to view all questions</a></h3>
+</div>
