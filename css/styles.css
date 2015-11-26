@@ -3,6 +3,10 @@ body {
 	color: black;
 }
 
+#slogan {
+	margin: 2em;
+}
+
 .header {
 
 	background-image: url(http://media.bestkiteboarding.com/media/blog/best_kiteboarding_indonesia_video.jpg);
